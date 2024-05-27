@@ -698,7 +698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputPassword: {fileID: 1055184601}
-  RightPassword: Benjo
+  RightPassword: benjo
 --- !u!4 &911085967
 Transform:
   m_ObjectHideFlags: 0
@@ -1004,12 +1004,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: d406e2bc06931fe46a42c8af4bd2cb97, type: 3}
-        m_MethodName: 
+      - m_Target: {fileID: 911085966}
+        m_MethodName: CheckPassword
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
